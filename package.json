@@ -2,19 +2,26 @@
   "name": "backendpractice",
   "version": "1.0.0",
   "description": "",
-  "keywords": [
-    "JavaScript",
-    "Backend",
-    "😎😎"
-  ],
+  "homepage": "https://github.com/PrinceSingh2004/Learning_Backend#readme",
+  "bugs": {
+    "url": "https://github.com/PrinceSingh2004/Learning_Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrinceSingh2004/Learning_Backend.git"
+  },
   "license": "ISC",
   "author": "Prince Singh",
-  "type": "commonjs",
-  "main": "server.js",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
